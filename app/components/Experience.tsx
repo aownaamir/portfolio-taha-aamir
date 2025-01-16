@@ -6,12 +6,12 @@ import SectionHeader from "./SectionHeader";
 
 function Experience() {
   return (
-    <div className="w-full   relative px-10 pt-10 bg-slate-950 flex flex-col justify-center items-center">
+    <div className="w-full   relative px-10 py-16 bg-slate-950 flex flex-col justify-center items-center">
       <ShootingStars />
       <StarsBackground />
       <SectionHeader title="Experience" />
 
-      <div className=" w-full mt-12  flex justify-center items-center">
+      <div className=" w-full mt-16  flex justify-center items-center">
         <div className="flex flex-col lg:grid grid-cols-3 gap-x-12 gap-y-9 justify-center items-center">
           {experiences.map((item, i) => (
             <Button

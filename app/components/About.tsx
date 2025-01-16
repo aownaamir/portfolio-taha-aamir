@@ -5,12 +5,12 @@ import SectionHeader from "./SectionHeader";
 
 function About() {
   return (
-    <div className="relative px-10 pt-10 w-full bg-slate-950 flex flex-col justify-center items-center">
+    <div className="relative px-10 py-16 w-full bg-slate-950 flex flex-col justify-center items-center">
       <ShootingStars />
       <StarsBackground />
 
       <SectionHeader title="About Me" />
-      <div className=" mt-12 flex flex-col lg:flex-row w-full justify-center items-center divide-y lg:divide-x lg:divide-y-0 divide-slate-300">
+      <div className=" mt-16 flex flex-col lg:flex-row w-full justify-center items-center divide-y lg:divide-x lg:divide-y-0 divide-slate-300">
         {aboutMe.map((item, i) => (
           <div
             key={i}

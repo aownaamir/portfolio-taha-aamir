@@ -40,12 +40,12 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="w-full  relative px-6 lg:px-20 pt-10  bg-slate-950 flex flex-col justify-center items-center gap-5"
+      className="w-full  relative px-6 lg:px-20 py-16  bg-slate-950 flex flex-col justify-center items-center gap-5"
     >
       <ShootingStars />
       <StarsBackground />
       <SectionHeader title="Contact" />
-      <div className="w-full h-[600px] 375:h-[490px]  lg:h-[300px]   flex flex-col lg:flex-row justify-center items-center">
+      <div className="w-full h-[600px] 375:h-[490px]  lg:h-[300px]   flex flex-col lg:flex-row justify-center items-center mt-5">
         <div className=" w-full h-full   flex justify-center items-center">
           <div className=" w-[90%]  relative mb-5">
             <p

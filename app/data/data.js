@@ -6,7 +6,9 @@ import Sales from "../svgs/Sales";
 import Marketing from "../svgs/Marketing";
 import Graphics from "../svgs/Graphics";
 import Ecommerce from "../svgs/Ecommerce";
-import Business from "../svgs/Business";
+import Earth from "../svgs/Earth";
+import Cash from "../svgs/Cash";
+import Manager from "../svgs/Manager";
 import { FaBirthdayCake } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { BiSolidBusSchool } from "react-icons/bi";
@@ -48,41 +50,55 @@ export const aboutMe = [
 export const experiences = [
   {
     id: 0,
-    position: "Business Development Associate",
-    organization: "Zameen.com",
+    position: "Associate Manager / Banking Service Officer",
+    organization: "Allied Bank",
     location: "Lahore, Pakistan",
-    svg: Business,
+    svg: Cash,
   },
   {
     id: 1,
+    position: "Management Trainee Officer ",
+    organization: "Allied Bank",
+    location: "Lahore, Pakistan",
+    svg: Manager,
+  },
+  {
+    id: 2,
+    position: "Business Development Associate",
+    organization: "Zameen.com",
+    location: "Lahore, Pakistan",
+    svg: Earth,
+  },
+  {
+    id: 3,
     position: "Digital Marketer",
     organization: "AS Community Hub",
     location: "Remote, Pakistan",
     svg: DigitalMarketer,
   },
   {
-    id: 2,
+    id: 4,
     position: "Marketing Intern",
     organization: "Indus Home Appliances",
     location: "Gujranwala, Pakistan",
     svg: Marketing,
   },
   {
-    id: 3,
+    id: 5,
     position: "ECommerce",
     organization: "Daraz.pk",
     location: "Remote, Pakistan",
     svg: Ecommerce,
   },
   {
-    id: 4,
+    id: 6,
     position: "Graphic Designer",
     organization: "Fiver",
     location: "Freelance",
     svg: Graphics,
   },
   {
-    id: 5,
+    id: 7,
     position: "Sales Person",
     organization: "Clotonline.pk",
     location: "Lahore, Pakistan",
